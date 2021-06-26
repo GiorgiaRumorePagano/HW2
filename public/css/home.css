@@ -1,0 +1,209 @@
+header {
+    background-image: url(https://images.pexels.com/photos/260409/pexels-photo-260409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+header h1  {
+    text-align: center;
+    margin-bottom: 200px; 
+}
+  
+header h1 strong {
+    font-family: "Roboto", sans-serif;
+    font-style: oblique;
+    font-size: 2em;
+    letter-spacing: 30px;
+    
+}
+  
+  
+header h1 a { 
+    font-family: "Poppins", sans-serif;
+    font-size: .5em;
+    border-radius: 100px;
+    border: 2px solid white;
+    padding: 10px;
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    text-decoration: initial;
+ 
+}
+
+header h1 a:hover {
+    background-color: yellow;
+    color: black;
+    border: yellow;
+}
+  
+section {
+    text-align: center;
+}
+
+section img {
+    height: 78%;
+    width: 100%;
+}
+
+#testo-corsi h1 {
+    margin: 20px 0px 0px 20px;
+    font-family: "Lato", sans-serif;
+    font-size: 9em;
+}
+  
+#testo-corsi p {
+    line-height: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-size: 1.8em;
+}
+  
+#flex-container-corsi{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+#flex-container-corsi span {
+    font-family: "Poppins", sans-serif; 
+    font-size: 1.3em;
+}
+
+#flex-container-corsi div {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 2%
+}
+
+#istruttori div{
+    width: 100%;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 0;
+}
+
+#istruttori img {
+    position: relative;
+    object-fit: cover;
+}  
+
+#istruttori div h1 {
+    position: absolute;
+    font-size: 4.5em;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    
+}
+  
+#istruttori div a {
+    position: absolute;
+    margin-top: 200px;
+    font-family: "Poppins", sans-serif;
+    font-size: 2em;
+    width: 250px;
+    letter-spacing: 3px;
+    border-radius: 100px;
+    border: 2px solid white;
+    padding: 10px;
+    z-index: 1;
+    color: white;
+    text-decoration: initial;
+    z-index: 0;
+}
+
+#istruttori a:hover {
+    background-color: yellow;
+    color: black;
+    border: yellow;
+}
+
+#testo-palestre h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 6em;
+    margin: 10px 0px 0px 10px;
+}
+
+#testo-palestre p {
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-size: 2.5em;
+    line-height: 10px;
+}
+
+#flex-container-palestre{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+#flex-container-palestre div {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 2%
+}
+
+#flex-container-palestre span {
+    font-family: "Poppins", sans-serif; 
+    font-size: 1.3em;
+}
+
+
+
+
+@media (max-width: 680px) {
+    #flex-container-corsi {
+      flex-direction: column;
+    }
+
+    #flex-container-palestre {
+        flex-direction: column;
+      }
+  }
+
+@media(max-width: 1320px){
+      header h1 strong{
+          font-size: 1em;
+          margin-top: 20%;
+      }
+  }
+
+
+@media(max-width: 800px){
+    #istruttori div h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media(max-width: 500px) {
+
+    #logo {
+        font-size: 1em;
+    }
+
+    #testo-corsi h1 {
+        font-size: 5em;
+    }
+
+    #testo-corsi p {
+        font-size: 1.1em;
+    }
+
+    #testo-palestre p {
+        font-size: 1.1em;
+    }
+}
+
+
+@media(max-width: 580px) {
+    #testo-palestre h1 {
+        font-size: 3em;
+    }
+
+    
+}
+
+ 
